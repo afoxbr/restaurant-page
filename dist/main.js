@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("const title = document.createElement(\"h2\");\ntitle.innerHTML = \"Welcome to Chris' Milk Shack!\";\ndocument.getElementById(\"content\").appendChild(title);\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("const title = document.createElement(\"h2\");\ntitle.innerHTML = \"Welcome to Chris' Milk Shack!\";\ndocument.getElementById(\"content\").appendChild(title);\n\nconst icon = document.createElement(\"img\");\nicon.src=\"../src/assets/20220810_201741_0000.png\";\ndocument.getElementById(\"content\").appendChild(icon);\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ })
 
