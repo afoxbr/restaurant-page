@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("const title = document.createElement(\"h2\");\ntitle.innerHTML = \"Welcome to Chris' Milk Shack!\";\ndocument.getElementById(\"content\").appendChild(title);\n\nconst icon = document.createElement(\"img\");\nicon.src=\"../src/assets/20220810_201741_0000.png\";\ndocument.getElementById(\"content\").appendChild(icon);\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("const title = document.createElement(\"h2\");\ntitle.innerHTML = \"Welcome to Chris' Milk Shack!\";\ndocument.getElementById(\"content\").appendChild(title);\n\nconst icon = document.createElement(\"img\");\nicon.src=\"../src/assets/20220810_201741_0000.png\";\nicon.setAttribute(\"height\", \"480px\");\nicon.setAttribute(\"width\", \"480px\");\ndocument.getElementById(\"content\").appendChild(icon);\n\nconst blurb = document.createElement(\"p\");\nblurb.innerText = \"Chris' Milk Shack is Canada's premium outlet for mammal juice of all varieties! Cow? You bet! Goat? Of course! Human? As long as you don't ask where we got it!\";\ndocument.getElementById(\"content\").appendChild(blurb);\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ })
 
