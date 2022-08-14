@@ -1,4 +1,4 @@
-const contactContent = () => {
+function contactContent() {
     //this function creates the contact content
     const subtitle = document.createElement("h3");
     subtitle.innerHTML = "Contact Us";
@@ -18,8 +18,6 @@ const contactContent = () => {
     const email = document.createElement("li");
     email.innerHTML = "Email\nchris@milkshack.com";
     details.appendChild(email);
-};
+}
 
-export {
-    contactContent,
-};
+export default contactContent;

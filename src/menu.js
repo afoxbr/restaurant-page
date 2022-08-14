@@ -1,4 +1,4 @@
-const menuContent = () => {
+function menuContent() {
     //Adds menu content
     const menuTitle = document.createElement("h3");
     menuTitle.innerHTML = "Menu";
@@ -25,10 +25,8 @@ const menuContent = () => {
     flavouredMilk.appendChild(flavouredMilkTitle);
 
     const flavouredBlurb = document.createElement("p");
-    flavouredBlurb.innerHTML = "As above, but flavoured with chocolate, strawberry, poutine, or moose.\n$65"
+    flavouredBlurb.innerHTML = "As above, but flavoured with chocolate, strawberry, poutine, or moose.\n$65";
     flavouredMilk.appendChild(flavouredBlurb);
-};
+}
 
-export {
-    menuContent
-};
+export default menuContent;
