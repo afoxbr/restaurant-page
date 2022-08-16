@@ -1,12 +1,15 @@
 function menuContent() {
-    //Adds menu content
+    const main = document.getElementById("main");
+    //Removes previous DOM content
+    main.innerHTML = '';
+    //Adds menu content    
     const menuTitle = document.createElement("h3");
     menuTitle.innerHTML = "Menu";
-    document.getElementById("content").appendChild(menuTitle);
+    main.appendChild(menuTitle);
 
     const basicMilk = document.createElement("div");
     basicMilk.classList.add("recipeCard");
-    document.getElementById("content").appendChild(basicMilk);
+    main.appendChild(basicMilk);
 
     const basicMilkTitle = document.createElement("h4");
     basicMilkTitle.innerHTML = "Milk";
@@ -18,7 +21,7 @@ function menuContent() {
 
     const flavouredMilk = document.createElement("div");
     flavouredMilk.classList.add("recipeCard");
-    document.getElementById("content");
+    main.appendChild(flavouredMilk);
 
     const flavouredMilkTitle = document.createElement("h4");
     flavouredMilkTitle.innerHTML = "Flavoured Milk";

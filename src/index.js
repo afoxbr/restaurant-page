@@ -1,11 +1,11 @@
 import aboutContent from './about.js';
 
-import contactContent from './contact.js';
-
-import menuContent from './menu.js';
-
 import firstLoad from './firstLoad';
 
 firstLoad();
+
+const main = document.createElement("div");
+main.setAttribute("id", "main");
+document.getElementById("content").appendChild(main);
+
 aboutContent();
-aboutTab.classList.add("active");

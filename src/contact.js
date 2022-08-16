@@ -1,22 +1,25 @@
 function contactContent() {
+    const main = document.getElementById("main");
+    //Removes previous DOM content
+    main.innerHTML = '';
     //this function creates the contact content
     const subtitle = document.createElement("h3");
     subtitle.innerHTML = "Contact Us";
-    document.getElementById("content").appendChild(subtitle);
+    main.appendChild(subtitle);
 
     const details = document.createElement("ul");
-    document.getElementById("content").appendChild(details);
+    main.appendChild(details);
 
     const address = document.createElement("li");
-    address.innerHTML = "Address:\n8140 Leslie Rd\nRichmond\nBritish Columbia\nV6X 4A8\nCanada";
+    address.innerHTML = "Address:<br>8140 Leslie Rd<br>Richmond<br>British Columbia<br>V6X 4A8<br>Canada";
     details.appendChild(address);
 
     const phone = document.createElement("li");
-    phone.innerHTML = "Phone number\n(604) 276-8282";
+    phone.innerHTML = "Phone number<br>(604) 276-8282";
     details.appendChild(phone);
 
     const email = document.createElement("li");
-    email.innerHTML = "Email\nchris@milkshack.com";
+    email.innerHTML = "Email<br>chris@milkshack.com";
     details.appendChild(email);
 }
 
