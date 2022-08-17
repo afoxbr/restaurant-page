@@ -1,0 +1,53 @@
+body {
+    background-image: url("../src/assets/20220810_201741_0000.png");
+    background-size: cover;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+    padding: 5%;
+    border: 4px solid blue;
+    border-radius: 12px;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+#content ul {
+    list-style: circle;
+}
+
+#content ul li {
+    margin-top: 12px;
+}
+
+.controlPanel {
+    background-color: blue;
+    border-radius: 6px;
+}
+
+.tab {
+    margin: 20px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: white;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.recipeCard {
+    background-color: lightblue;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 6px;
+    box-shadow: 2px 4px #888888;
+}
